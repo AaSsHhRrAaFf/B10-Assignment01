@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero {
+  background-image: url(./assets/Hero-bg.png);
+  width: 1440px;
+height: 652px;
+ 
+}
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   padding-top: 100px;
+   gap: 20px;
+}
+.btn-primary {
+  background: rgb(8, 8, 8);
+  color: #fff;
+  width: 150px;
+  height: 50px;
+  border-radius: 8px;
+}
+
+/* Main section style */
+
+.sec-01 {
+    background-color: rgba(13, 19, 33, 0.02);
+    margin: 30px auto;
+    text-align: center;
+    padding-top: 40px;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
